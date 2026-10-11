@@ -18,10 +18,46 @@
   --border-color-karma: hsl(34, 97%, 64%);
   --border-color-calculator: hsl(212, 86%, 64%);
 
-  --background-color: hsl(0, 0%, 100%);
+  --background-color-container-article: hsl(0, 0%, 100%);
+  --background-color-card: hsl(212, 6%, 44%);
 
   --color-h1-h2-p-intro: hsl(234, 12%, 34%);
   --color-p: hsl(212, 6%, 44%);
+
+  --font-weight-h1: 200;
+  --font-weight-h2-p: 400;
+  --font-weight-spanh1: 600;
+}
+
+html {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+h1 {
+  text-align: center;
+  color: var(--color-h1-h2-p-intro);
+  font-weight: var(--font-weight-h1);
+}
+
+.intro {
+  text-align: center;
+  color: var(--color-h1-h2-p-intro);
+  font-weight: var(--font-weight-h2-p);
+}
+
+span {
+  font-weight: var(--font-weight-spanh1);
+}
+
+.container {
+  background-color: var(--background-color-container-article);
+}
+
+.card {
+  max-width: 373px;
+  background-color: var(--background-color-card);
 }
 
 .attributionattribution {
@@ -31,9 +67,4 @@
 
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-html {
-  font-size: 15px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
 }

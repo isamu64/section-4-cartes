@@ -1,4 +1,58 @@
-attribution {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --border-color-team-builder: hsl(0, 78%, 62%);
+  --border-color-supervisor: hsl(180, 62%, 55%);
+  --border-color-karma: hsl(34, 97%, 64%);
+  --border-color-calculator: hsl(212, 86%, 64%);
+  --background-color-container-article: hsl(0, 0%, 100%);
+  --background-color-card: hsl(212, 6%, 44%);
+  --color-h1-h2-p-intro: hsl(234, 12%, 34%);
+  --color-p: hsl(212, 6%, 44%);
+  --font-weight-h1: 200;
+  --font-weight-h2-p: 400;
+  --font-weight-spanh1: 600;
+}
+
+html {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+h1 {
+  text-align: center;
+  color: var(--color-h1-h2-p-intro);
+  font-weight: var(--font-weight-h1);
+}
+
+.intro {
+  text-align: center;
+  color: var(--color-h1-h2-p-intro);
+  font-weight: var(--font-weight-h2-p);
+}
+
+span {
+  font-weight: var(--font-weight-spanh1);
+}
+
+.container {
+  background-color: var(--background-color-container-article);
+}
+
+.card {
+  max-width: 373px;
+  background-color: var(--background-color-card);
+}
+
+.attributionattribution {
   font-size: 0.6875rem;
   text-align: center;
 }
