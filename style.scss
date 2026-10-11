@@ -1,5 +1,8 @@
+// Font
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+// Reset
 *,
 *::before,
 *::after {
@@ -8,10 +11,24 @@
   padding: 0;
 }
 
-attribution {
+// Variables
+:root {
+  --border-color-team-builder: hsl(0, 78%, 62%);
+  --border-color-supervisor: hsl(180, 62%, 55%);
+  --border-color-karma: hsl(34, 97%, 64%);
+  --border-color-calculator: hsl(212, 86%, 64%);
+
+  --background-color: hsl(0, 0%, 100%);
+
+  --color-h1-h2-p-intro: hsl(234, 12%, 34%);
+  --color-p: hsl(212, 6%, 44%);
+}
+
+.attributionattribution {
   font-size: 0.6875rem;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
