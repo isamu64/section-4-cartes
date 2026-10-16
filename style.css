@@ -44,10 +44,16 @@ span {
 }
 
 .container {
+  display: grid;
   background-color: var(--background-color-container-article);
 }
 
+article {
+  text-align: left;
+}
+
 .card {
+  justify-self: center;
   max-width: 373px;
   background-color: var(--background-color-card);
 }
