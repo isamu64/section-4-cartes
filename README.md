@@ -1,34 +1,35 @@
 # Frontend Mentor - Solution du composant QR code
 
-Voici une solution au [challenge QR code component sur Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Les challenges Frontend Mentor vous permettent d'améliorer vos compétences en programmation en réalisant des projets réalistes.
+Voici une solution au [challenge QR code component sur Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Les challenges Frontend Mentor vous permettent d'améliorer vos compétences en programmation en réalisant des projets réalistes.
 
 ## Aperçu
 
 ### Capture d'écran
 
-![Screenshot du projet final](sources/qr-code-component-main/images/screenshot-projet-final.png)
+![Screenshot du projet final](images/Screenshot.png)
 
 ### Liens
 
-- URL de la solution sur GitHub : https://github.com/isamu64/qr-code-component
-- URL du site en ligne : https://isamu64.github.io/qr-code-component/
-- URL du challenge : https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H
+- URL de la solution sur GitHub : https://github.com/isamu64/section-4-cartes
+- URL du site en ligne : https://isamu64.github.io/section-4-cartes/
+- URL du challenge : https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK
 
 ## Mon processus
 
 ### Description du challenge
 
-Créé un QR code (image fourni) avec du texte en dessous, le tout centré parfaitement au centre de la page.
+Créé un composant avec 4 cartes
 
 ### Technologies utilisées
 
 - Balisage HTML5 sémantique
 - Propriétés personnalisées CSS
-- Flexbox
+- Grid
+- SCSS
 
 ### Ce que j'ai appris
 
-Ce challenge m'a permis de me remettre tout doucement au code après des années sans le pratiquer. J'ai eu quelques difficultés avec Flexbox car je n'arrivais pas à centrer correctement le tout, il m'a fallu l'aide de l'IA et de la documentation Flexbox pour comprendre ce que je faisais et y arriver.
+Ce challenge m'a permis de pratiquer Grid et le SCSS
 
 ### Développement continu
 
@@ -37,7 +38,6 @@ Apprendre Figma ainsi que l'UX/UI.
 
 ### Ressources utiles
 
-- [Doc Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) — Cette ressource m'a aidé pour l'utilisation de flexbox. J'ai particulièrement apprécié cette méthode et je compte continuer à l'utiliser.
 - [MDN](https://developer.mozilla.org/fr/) - Site indispensable pour comprendre HTML et CSS. Coupler avec l'IA pour encore plus éclaircir les notions qui peuvent être parfois difficile à comprendre juste en lisant ce site.
 
 ### Collaboration avec l'IA
